@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">BecomeFluentIn</string>
+    <string name="logo">Logo</string>
+    <string name="title">Become Fluent In</string>
+    <string name="description">How to become fluent in any language? Easy with a new mobile application BFI.</string>
+    <string name="login">Login:</string>
+    <string name="password">Password:</string>
+    <string name="hint_login">your login</string>
+    <string name="hint_password">*********</string>
+    <string name="log_in">Log In</string>
+    <string name="register_text">Still don\'t have an account? <font color="#012FD0">Register now!</font></string>
 </resources>

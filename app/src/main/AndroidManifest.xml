@@ -13,6 +13,14 @@
         android:theme="@style/Theme.BecomeFluentIn"
         tools:targetApi="31">
         <activity
+            android:name=".ModuleInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ModulesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_modules"
+            android:theme="@style/Theme.BecomeFluentIn.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

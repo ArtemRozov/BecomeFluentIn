@@ -27,11 +27,11 @@ public class ModuleInfo extends AppCompatActivity {
 
         // Пример данных
         wordList = new ArrayList<>();
-        wordList.add(new Word("apple"));
-        wordList.add(new Word("banana"));
-        wordList.add(new Word("cherry"));
-        wordList.add(new Word("date"));
-        wordList.add(new Word("elderberry"));
+        wordList.add(new Word());
+        wordList.add(new Word());
+        wordList.add(new Word());
+        wordList.add(new Word());
+        wordList.add(new Word());
 
         wordAdapter = new WordAdapter(wordList);
         recyclerView.setAdapter(wordAdapter);

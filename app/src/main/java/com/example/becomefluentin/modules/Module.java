@@ -1,19 +1,64 @@
 package com.example.becomefluentin.modules;
 
-public class Module {
-    private String name;
-    private int wordCount;
+import com.google.gson.annotations.SerializedName;
 
-    public Module(String name, int wordCount) {
-        this.name = name;
-        this.wordCount = wordCount;
+import java.util.List;
+
+public class Module {
+    @SerializedName("id")
+    private int id;
+
+    @SerializedName("name")
+    private String name;
+
+    @SerializedName("descriptions")
+    private String descriptions;
+
+    @SerializedName("userId")
+    private int userId;
+
+    @SerializedName("words")
+    private List<Word> words;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getWordCount() {
-        return wordCount;
+    public void setName(String name) {
+        this.name = name;
     }
+
+    public String getDescriptions() {
+        return descriptions;
+    }
+
+    public void setDescriptions(String descriptions) {
+        this.descriptions = descriptions;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    public List<Word> getWords() {
+        return words;
+    }
+
+    public void setWords(List<Word> words) {
+        this.words = words;
+    }
+
+    // Getters and setters
 }
